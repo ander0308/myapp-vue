@@ -18,7 +18,7 @@
    
     }
     ul li{
-        margin-left: 16px;
+        margin-left: 20px;
     }
 
     ul li:first-child{
@@ -27,13 +27,13 @@
 
     ul li a{
         text-decoration: none;
-        font-size: 12px;
-        font-weight: bold;
+        font-size: 14px;
+        font-weight: 500;
         color: #495057;
-        letter-spacing: 0.8px;
+        letter-spacing: 0.2px;
         transition: all .3s;
     }
      ul li a:hover {
-        color: #7F56D9;
+        color: #20c997;
      }
 </style>
