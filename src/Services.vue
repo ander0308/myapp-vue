@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import CardComponent from './CardComponent.vue'
+import CardComponent from './components/CardComponent.vue'
 
 export default {
     components: {

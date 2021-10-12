@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  import LogoComponent from './LogoComponent.vue'
-  import ButtonComponent from './ButtonComponent.vue'
-  import NavComponent from './NavComponent.vue'
+  import LogoComponent from './components/LogoComponent.vue'
+  import ButtonComponent from './components/ButtonComponent.vue'
+  import NavComponent from './components/NavComponent.vue'
 
 export default {
   components: {
@@ -29,9 +29,8 @@ export default {
       justify-content: space-between;
       width: 100%;
       max-width: 1246px;
-      padding: 0 15px;
+      padding: 16px 15px;
       margin: 0 auto;
-      padding-bottom: 16px;
   }
 
   @media (max-width: 768px) {

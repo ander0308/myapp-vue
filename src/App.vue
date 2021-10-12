@@ -3,14 +3,16 @@
     <Header />
     <HeroComponent />
     <ServicesComponent />
+    <FormComponent />
   </div>
 </template>
 
 <script>
 
-import Header from './components/Header.vue'
-import ServicesComponent from './components/ServicesComponent.vue'
-import HeroComponent from './components/HeroComponent.vue'
+import Header from './Header.vue'
+import ServicesComponent from './Services.vue'
+import HeroComponent from './Hero.vue'
+import FormComponent from './components/FormComponent.vue'
 
 
 export default {
@@ -18,7 +20,8 @@ export default {
   components: {
     Header,
     HeroComponent,
-    ServicesComponent
+    ServicesComponent,
+    FormComponent
   }
 }
 </script>
@@ -37,6 +40,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  padding: 16px 0;
+
 }
 </style>

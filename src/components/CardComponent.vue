@@ -34,6 +34,10 @@
         background: #FFFFFF;
         box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.1), 0px 4px 6px -2px rgba(16, 24, 40, 0.05);
         padding: 24px;
+        transition: all .3s;
+    }
+    .card-box:hover{
+        box-shadow: 0px 18px 16px -4px rgba(16, 24, 40, 0.1), 0px 4px 6px -2px rgba(16, 24, 40, 0.05);
     }
     .imagem {
         margin-bottom: 32px;

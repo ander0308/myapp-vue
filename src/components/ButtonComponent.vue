@@ -28,6 +28,7 @@ export default {
         cursor: pointer;
         transition: all .3s;
         padding: 0 16px;
+        display: block;
     
     }
     button:hover{
