@@ -4,15 +4,25 @@
     <HeroComponent />
     <ServicesComponent />
     <FormComponent />
+
+    <!-- Este componente foi importado globalmente no main.js  -->
+    <global-component></global-component>
+
+    
+    <!-- Este componente foi importado local no App.vue  -->
+    <local-component></local-component>
+
   </div>
 </template>
 
 <script>
 
-import Header from './Header.vue'
-import ServicesComponent from './Services.vue'
-import HeroComponent from './Hero.vue'
-import FormComponent from './components/FormComponent.vue'
+import Header from './Header.vue';
+import ServicesComponent from './Services.vue';
+import HeroComponent from './Hero.vue';
+import FormComponent from './components/FormComponent.vue';
+// importando localmente
+import LocalComponent from './components/LocalComponent.vue'; 
 
 
 export default {
@@ -21,7 +31,8 @@ export default {
     Header,
     HeroComponent,
     ServicesComponent,
-    FormComponent
+    FormComponent,
+    'local-component' : LocalComponent   // importando localmente
   }
 }
 </script>

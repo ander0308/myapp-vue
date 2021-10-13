@@ -8,7 +8,7 @@ export default {
 
     methods: {
         chama: function(){
-            alert('Ligue para 11 98123 4567')
+            alert('Clicou no botão!')
         }
     }
 }
